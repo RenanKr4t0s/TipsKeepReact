@@ -1,14 +1,18 @@
 import React from "react";
 import Header from "./Header";
-import Note from "./Note";
 import Footer from "./Footer";
+import NoteMaker from "./NoteMaker";
+import notes from "./notes.js"
+
 
 function App(){
   return  (
     <>
-      < Header />
-      < Note />
-      < Footer />
+      <Header />
+      <NoteMaker
+        array = {notes}
+      />
+      <Footer />
     </>
   );
 }
