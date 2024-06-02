@@ -44,6 +44,8 @@ footer p {
   width: 20%;
   margin: 16px;
   float: left;
+  display: flex;
+  flex-direction: column;
 }
 .note h1 {
   font-size: 1.1em;
@@ -54,4 +56,44 @@ footer p {
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+.session-in{
+  display: flex;
+  justify-content: center;
+}
+.big-note{
+  background: #bcbcc9;
+  border-radius: 7px;
+  box-shadow: 0 4px 7px #c5d2fa;
+  padding: 20px 30px;
+  width: 30%;
+  margin: 32px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+.big-note input, .big-note textarea{
+  background: none;
+  border: none;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+.big-note__title{
+  font-size: 1.5em;
+}
+
+.big-note__content {
+  font-size: 1.1em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  vertical-align: top;
+}
+.big-note button, .note button {
+  background: #c5d2fa;
+  height: 2.5rem;
+  width: 3rem;
+  border-radius: 7px;
+  box-shadow: 0 2px 2px #6e6e9b;
+  align-self: flex-end;
 }

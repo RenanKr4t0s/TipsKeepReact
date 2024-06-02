@@ -1,12 +1,14 @@
 import Note from "./Note";
 
 function NoteMaker (props){
-    const theNotes = props.array.map(object=>{
+    const theNotes = props.array.map((object, index)=>{
         return(
             <Note
-            key = {object.id}
             title = {object.title}
             content = {object.content}
+            toDelete = {props.toDelete}
+            key={index}
+            id={index}
             />
         )
     })

@@ -7,7 +7,7 @@ Feito com a finalidade de testar e aprender conceitos de React.
 ### Conhecimentos fase 1
 - Iniciação com NPM
 - Comando Create React App
-- Atualização de funções deprecadas
+- Atualização de funções 'deprecadas'
     - **createRoot** no lugar de **reactDom**
 - uso do construtor Date() e suas propriedades
 
@@ -24,4 +24,4 @@ Feito com a finalidade de testar e aprender conceitos de React.
 
 
 ## Agradecimentos
-Agradeço ao professor Alisson Suassuna da TipsCode que nos ensinou muitos dos conceitos que utilizei na primeira versão desse webApp.
+Agradeço ao professor [Alisson Suassuna](https://github.com/alissonsuassuna) da [TipsCode](https://tipscode.tech/) pela passagem didática do conhecimento necessário para a elaboração desse projeto.
